@@ -2,14 +2,30 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl equals" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
   </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift p" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
-  <action id="FindUsagesInFile">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="ctrl p" />
+  <action id="Find" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl p" />
+  </action>
+  <action id="FindUsagesInFile" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="c" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="p" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="s" />
   </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift v" />
@@ -17,17 +33,23 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift s" />
   </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
+  </action>
   <action id="NextSplitter" />
   <action id="PrevSplitter" />
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="r" />
   </action>
+  <action id="ReplaceInPath" />
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="s" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
   </action>
+  <action id="TodoViewGroupByShowPackages" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="equals" />
   </action>
@@ -49,4 +71,5 @@
   <action id="VimWindowUp">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="k" />
   </action>
+  <action id="XPathView.Actions.FindByExpression" />
 </keymap>
