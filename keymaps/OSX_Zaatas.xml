@@ -1,0 +1,22 @@
+<keymap version="1" name="OSX_Zaatas" parent="Mac OS X 10.5+">
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift w" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="s" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="PrevSplitter" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="r" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="equals" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift add" />
+  </action>
+</keymap>
