@@ -2,6 +2,9 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift w" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="s" />
   </action>
